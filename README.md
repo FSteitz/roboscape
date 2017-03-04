@@ -1,11 +1,9 @@
 # Roboscape
 
-Roboscape is 2D runner game with a story mode and an endless runner mode. It's characters are small robots which attempt to escape from facility. 
+Roboscape is 2D runner game with a story mode and an endless runner mode. It's characters are small robots which attempt to escape from a facility.
 
 ## Supported platforms
 
 - Android
 
-## Contributing
-
-- TODO: Link to wiki page
+Currently, it's only a game prototype that is not under active development.
