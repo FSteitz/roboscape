@@ -15,8 +15,14 @@ using System.Collections;
 /// See the License for the specific language governing permissions and
 /// limitations under the License.
 ///
+/// <summary>
+///
+/// </summary>
 public class TileGroupScript : MonoBehaviour {
 
+  /// <summary>
+  ///
+  /// </summary>
 	private void Awake () {
 		foreach (Transform childTransform in transform) {
 			TileScript tileScript = (TileScript) childTransform.gameObject.GetComponent("TileScript");

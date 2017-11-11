@@ -15,6 +15,9 @@ using System.Collections;
 /// See the License for the specific language governing permissions and
 /// limitations under the License.
 ///
+/// <summary>
+///
+/// </summary>
 [ExecuteInEditMode]
 public class TileScript : MonoBehaviour {
 
@@ -23,6 +26,9 @@ public class TileScript : MonoBehaviour {
 	private decimal x = 0m;
 	private decimal y = 0m;
 
+  /// <summary>
+  ///
+  /// </summary>
 	private void Update () {
 		if (transform.hasChanged) {
 			decimal x = calculatePositionOnAxis((decimal) transform.position.x);
@@ -33,6 +39,9 @@ public class TileScript : MonoBehaviour {
 		}
 	}
 
+  /// <summary>
+  ///
+  /// </summary>
 	private decimal calculatePositionOnAxis(decimal axis) {
 		if (axis % tileOffset != 0m) {
 			axis += (tileOffset - (axis % tileOffset));

@@ -15,14 +15,23 @@ using System.Collections;
 /// See the License for the specific language governing permissions and
 /// limitations under the License.
 ///
+/// <summary>
+///
+/// </summary>
 public class CharacterController : MonoBehaviour {
 
 	private Rigidbody2D rigidBody;
 
+  /// <summary>
+  ///
+  /// </summary>
 	void Start () {
 		rigidBody = GetComponent<Rigidbody2D>();
 	}
 
+  /// <summary>
+  ///
+  /// </summary>
 	void FixedUpdate () {
 		Vector2 newPosition = new Vector2(transform.position.x + 0.1f, transform.position.y);
 		rigidBody.MovePosition(newPosition);
